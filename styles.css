@@ -1,0 +1,148 @@
+.static-box{
+    position: static;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(79, 79, 233);
+}
+
+.relative-box{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    left: 30px;
+    background-color: rgb(133, 196, 227);
+}
+
+.container{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(37, 128, 128);
+}
+
+.absolute-box{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(103, 59, 136);
+}
+
+.fixed-box{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(183, 48, 70);
+}
+
+.sticky-box{
+    position: sticky;
+    top: 0;
+    background-color: rgb(210, 210, 82);
+}
+
+.background-image{
+    background-image: url(OIP.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+
+.background-image-repeat {
+    background-image: url(flower.jpg);
+    background-repeat: repeat;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.overlapping-boxes {
+    position: relative;
+    height: 100px;
+}
+
+.box1 {
+    background-color: rgb(102, 150, 63);
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+}
+
+.box2 {
+    background-color: rgba(202, 29, 78, 0.5);
+    position: absolute;
+    z-index: 2;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.child1{
+    background-color: #4a934b;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;
+}
+
+.child2{
+    background-color: rgb(148, 148, 67);
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 10px;
+}
+
+.child3{
+    background-color: rgb(105, 105, 164);
+}
+
+.flex-container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.child4 {
+    background-color: #8adb8c; 
+}
+
+.flex-container-5 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.child5{
+    background-color: rgb(238, 109, 109);
+}
+
+.flex-container-6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 10px;
+}
+
+.child6{
+    background-color: rgb(235, 190, 190);
+}
+
+.flex-container-7 {
+    display: flex;
+    margin-bottom: 10px;
+    flex-grow: 2;
+}
+
+.child7{
+    background-color: rgb(186, 119, 19);
+}
