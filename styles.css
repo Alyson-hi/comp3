@@ -145,4 +145,23 @@
 
 .child7{
     background-color: rgb(186, 119, 19);
+    height: 100px;
+    width: 100px;
+    transform: scale(1);
+}
+
+.child8{
+    background-color: rgb(205, 205, 85);
+    height: 100px;
+    width: 100px;
+    transform: scale(2);
+}
+
+.child9{
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    transform: scale(3);
+    border:2px solid black; 
+    
 }
